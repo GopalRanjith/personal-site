@@ -1,0 +1,321 @@
+html{
+        scroll-behavior:smooth
+    }
+body
+{
+ border: none;
+ margin: 0%;
+ padding: 0;
+ background-image: url(pexels-juan-pablo-serrano-arenas-1242348.jpg); /* Specify the path to your background image */
+    
+}
+nav{
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    background-image: url(banner-1756639_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -14.7px;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 50px;
+    padding: 0 30px;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     color:white;
+}
+nav a:hover
+{
+    background-color: black;
+}
+nav li:first-child
+{
+    margin-right: auto;
+}
+/* .sidebar
+{
+    position: fixed;
+    top:0;
+    right: 0;
+    height: 100vh;
+    width:250px ;
+    z-index: 999;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0, 0,0.1);
+    display:none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width:100%;
+}
+.sidebar a{
+    width:100%;
+}
+.menu-button
+{
+    display: block;
+} */
+@media(max-width:800px){
+    .hideOnMobile{
+        display: none;
+    }
+}
+@media(max-width:400px)
+{
+    .sidebar{
+        width: 100%;
+    }
+}
+profile-image{
+    position: relative;
+    max-width: 100%;
+    height: auto; 
+    overflow: hidden;
+    top:0%;
+    left:0%;
+    padding: 0%;
+   
+}
+.profile-image img
+{
+    padding: 0%;
+    margin: 0%;
+    width: 100%; /* Make the image fill the container's width */
+    height: auto; /* Ensure the aspect ratio is maintained */
+    display: block; /* Prevent any extra space below the image */
+}
+.image-text
+{
+    position: absolute; 
+    top: 15.1%; /* Adjust as per your requirement */
+    left: 8%; /* Adjust as per your requirement */
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Background color for better readability */
+    padding: 5px; /* Adjust as per your requirement */
+    border-radius: 5px; /* Optional: add some rounded corners */
+    font-family: Arial, sans-serif; /* Optional: change font as needed */
+    font-size: 18px; /* Optional: adjust font size */
+    color: black; /* Optional: adjust text color */
+    z-index: 1;
+}
+.intro-text
+{
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 20%;
+    transform:translate(-50%);
+    font-size:xx-large;
+    font-style: italic;
+    color:black;
+}
+/* .dropdown
+{
+    position: fixed;
+   display: inline-block;
+   top: 10px; /* Adjust top position as needed */
+    /* right: 100px; 
+}
+.dropdown button
+{
+    cursor:pointer;
+}
+ .dropdown a{
+    display: block;
+    color: cadetblue;
+    text-decoration: none;
+ }
+ .dropdown .Elements
+ {
+    display: none;
+    position: absolute;
+    min-width: 50px;
+ }
+.dropdown:hover .Elements{
+    display: block;
+} */ 
+.About
+{   margin: 0; /* Resetting margin */
+    padding-top:1px; 
+    padding-bottom: 1px;/* Resetting padding */
+    border: none;
+    height: 400px;
+    display: flex;
+}
+.head
+{
+    background-image: url(phot.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    height: 400px;
+    border-style: none;
+}
+.text-overlay
+{
+    z-index: 1;
+    
+}
+.text-overlay p
+{
+    color: white;
+    font-size:60px;
+    font-weight: bold;
+    padding-left: 55%;
+    padding-top: 10%;
+}
+.content_of_about 
+{
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: larger;
+}
+.head h3{
+    z-index: 1;
+    text-align: center;
+}
+.content_of_about
+{
+    text-align: center;
+    flex:1;
+}
+ h2{
+    text-align: center;
+    top: 5%;
+}
+.education
+{
+    background-image: url(banner-1756639_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0; /* Resetting margin */
+    padding-top: 0.5px; /* Resetting padding */
+    border: none;
+    height: 55px;
+
+}
+.education-details
+{
+    margin: 0;
+    padding-top: 2px; /* Resetting padding */
+    border: none;
+    height: 400px;
+    display: flex;
+}
+.school
+{
+    position: relative;
+    flex: 0.75;
+    background-color: white;
+    margin-left: 10%;
+    background-image: url(school.png);
+    min-width: 20%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 8%;
+    margin-top: 3%;
+    padding-left: 5%;
+    margin-bottom: 3%;
+    border-radius: 2rem;
+}
+.education-details .college
+{
+    flex: 0.75;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-top: 3%;
+    padding-left: 20%;
+    margin-bottom: 3%;
+    border-radius: 2rem;
+    background-image: url(Sri\ Krishna\ College\ of\ Engineering\ and\ Technology.png);
+    min-width: 300px;
+    background-size: cover;
+    background-position: center;
+
+}
+.hobby
+{
+    background-image: url(banner-1756639_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0; /* Resetting margin */
+    padding-top: 2px; /* Resetting padding */
+    border: none;
+    height: 55px;
+}
+.list_of_hobbies
+{
+    margin: 0;
+    border: none;
+    height: auto;
+    
+}
+.row {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .column1, .column2, .column3 {
+    margin: 0;
+    padding: 0;
+    flex: 33.33%;
+  }
+  .contact
+{
+    background-image: url(banner-1756639_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0; /* Resetting margin */
+    padding-top: 2px; /* Resetting padding */
+    border: none;
+    height: 55px;
+}
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding-top: 2px;
+    height: 200px;
+    border: none; 
+    padding-left: 600px;
+  }
+  
+ .social-icons ul{
+    text-align:center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
+ social-icons li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust the margin as needed */
+    vertical-align: middle;
+    text-align: center;
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container img {
+    margin-bottom: 5px; /* Adjust the margin between icon and label */
+}
